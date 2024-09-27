@@ -1,0 +1,36 @@
+
+
+.bar-design {
+  height: 100px;
+  width: 50px;
+  background-color: rgb(155, 226, 243); 
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+.bars-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sort-button {
+  background-color: rgb(7, 111, 114);
+  padding: 10px 50px;
+  border: none;
+  color: azure;
+  font-size: 15px;
+}
+
+.button-container {
+  width: mx-auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}

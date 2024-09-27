@@ -1,5 +1,5 @@
 
-// const nums = [5, 6, 2, 1, 9, 4, 3, 8, 7, 0];
+let nums = [5, 6, 2, 1, 9, 4, 3, 8, 7, 0];
 
 let bubbleSort = (array) => {
   for(let i = 0; i < array.length; i++){
@@ -14,8 +14,10 @@ let bubbleSort = (array) => {
   return array;
 };
 
-console.log(bubbleSort([5, 6, 2, 1, 9, 4, 3, 8, 7, 0]));
+// console.log(bubbleSort(nums));
 
-console.log(bubbleSort([5, 6, 3, 8, 7, 0]));
+
+
+
 
 
