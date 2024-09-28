@@ -10,17 +10,20 @@
 <body>
 
   <div>
-    <input placeholder="enter numbers separated by commas" id="numberInput" type="text" >
+    <div class="main-display">
+        <input placeholder="Enter numbers separated by commas" type="text" class="number-input js-number-input">
+        <button class="done-button js-done-button">DONE</button>
+    </div>
+
+    <div class="js-bar bars-container">
+    </div>
+
+    <div class="button-container">
+      <button class="js-sort-button sort-button">Sort</button>
+    </div>
   </div>
-
-   <div class="js-bar bars-container">
-   </div>
-
-   <div class="button-container">
-    <button class="js-sort-button sort-button">Sort</button>
-   </div>
   
 
-  <script src="scripts/data-layout.js"></script>
+  <script src="scripts/bubble-sort.js"></script>
 </body>
 </html>
