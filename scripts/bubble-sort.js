@@ -7,13 +7,14 @@ document.querySelector('.js-done-button').addEventListener('click', () => {
   let input = document.querySelector('.js-number-input').value;
   nums = input.split(',').map(Number);
 
-  // Generating the HTML
+// Generating the HTML
+
   let barsHTML = '';
 
   nums.forEach((num) => {
 
     barsHTML += `
-      <div class="bar-design">${num}</div>
+      <div class="unsorted-bar-design">${num}</div>
     `
   })
 
@@ -44,7 +45,7 @@ document.querySelector('.js-done-button').addEventListener('click', () => {
  document.querySelector('.js-sort-button')
   .addEventListener('click', () => {
 
-    let sortedNums = bubbleSort([...nums]);
+    let sortedNums = bubbleSort(nums);
 
 
 // Generating the HTML
@@ -53,7 +54,7 @@ document.querySelector('.js-done-button').addEventListener('click', () => {
     sortedNums.forEach((num) => {
 
       sortedBarsHTML += `
-        <div class="bar-design">${num}</div>
+        <div class="sorted-bar-design">${num}</div>
       `
     })
 
@@ -62,5 +63,4 @@ document.querySelector('.js-done-button').addEventListener('click', () => {
 
     });
 
-    let nums = [];
 
